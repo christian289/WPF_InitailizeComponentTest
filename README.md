@@ -44,7 +44,7 @@
 
 ## 결론
 
-WPF에서 InitializeComponent() 메서드를 생성하기 위한 조건은 아래 조건 중에서 1가지  해당되면 됩니다.
+WPF에서 InitializeComponent() 메서드를 생성하기 위한 조건은 아래 조건 중에서 1가지 이상 해당되면 됩니다.
 
 - App.xaml에 Startup 이벤트 추가
 - App.xaml에 StartupUri 속성 추가
