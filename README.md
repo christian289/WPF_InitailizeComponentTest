@@ -51,3 +51,5 @@ WPF에서 InitializeComponent() 메서드를 생성하기 위한 조건은 아�
 - App.xaml에 Visual에 관련된 리소스 추가
 
 따라서 App.xaml에 __Visual과 무관한 순수한 C# 클래스인 리소스만 추가될 경우 InitializeComponent() 메서드는 생성되지 않습니다.__
+
+__InitializeComponent() 를 호출해야만 App.xaml의 정적 리소스가 생성됩니다.__
